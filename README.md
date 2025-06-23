@@ -1,5 +1,5 @@
-# Simple AI Chat Client using Python and Gemini API ![Python](https://img.shields.io/badge/python-3.12.10-blue?logo=python&logoColor=white)
-[Gemini Client](https://github.com/KajetanFilipMigdalski/GeminiClient) is a basic chatbot built with Python and Tkinter, using Google's Generative AI API (Gemini)
+# Simple AI Chat Client using Python and Gemini API ![Python](https://img.shields.io/badge/python-3.12.10-yellow?logo=python&logoColor=white) ![Gemini](https://img.shields.io/badge/gemini-api-lightgrey?logo=google&logoColor=white)
+[Gemini Client](https://github.com/KajetanFilipMigdalski/GeminiClient) is a basic chatbot built with Python and Tkinter, using Google's Generative AI API (Gemini) 
 
 ## Requirements
 * [Python](https://python.org) 3.8+
