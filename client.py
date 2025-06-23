@@ -45,7 +45,6 @@ def main():
 
 def save():
     with open("save.txt", "w") as file:
-        file.write(entry.get() + "\n")
         file.write(instructions.get("1.0", tk.END).strip() + "\n")
 
 def hs():
@@ -89,6 +88,7 @@ entry = tk.Entry(option_frame,
                  insertbackground="white", 
                  show="")
 entry.grid(row=0, column=0, padx=5)
+entry.insert(0, "Enter your API here.")
 
 button_hs = tk.Button(option_frame,
                       text="Hide",
@@ -211,11 +211,6 @@ instructions.pack(pady=5)
 
 if os.path.exists("save.txt"):
     with open("save.txt", "r") as file:
-        api_key = file.readline().strip()
         instructions_text = file.read().strip()
-        entry.insert(0, api_key)
         instructions.insert("1.0", instructions_text)
-else:
-    entry.insert(0, "Enter your API here.")
-
 window.mainloop()
