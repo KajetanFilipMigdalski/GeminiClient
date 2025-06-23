@@ -13,7 +13,7 @@ pip install google-generativeai
 ## How to use
 1. Run the script:
 ```cmd
-python app.py
+python client.py
 ```
 2. Paste your [Gemini API key](https://aistudio.google.com/apikey).
 3. Choose a model and settings, write a prompt and press **Submit**
