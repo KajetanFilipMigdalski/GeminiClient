@@ -5,6 +5,7 @@
 * [Python](https://python.org) 3.8+
 * google-generativeai
 * tkinter (comes with Python)
+
 Install the required library with:
 ```google-generativeai
 pip install google-generativeai
